@@ -1,0 +1,431 @@
+/* design by fantasyinfo freelancer: https://www.freelancer.in/u/fantasyinfo
+    custom coding of html and css by gaurav sharma
+    call or whatsapp me: +91 6397 520221
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-top-box {
+  padding: 40px;
+  border: 2px solid #000;
+  background-color: #bfbfbf;
+}
+.top-header {
+  border: 2px solid #000;
+  vertical-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  position: relative;
+  background: #e4e4e4;
+}
+.right-side ul li {
+  display: inline-block;
+  font-size: 14px;
+  padding-right: 6px;
+}
+h3 {
+  font-size: 12px;
+}
+.header-left i.fas.fa-home {
+  padding-left: 25px;
+}
+.header-left span.icon-home {
+  padding-left: 15px;
+  text-transform: uppercase;
+      position: relative;
+    top: -3px;
+}
+.top-header .fa-home, .fas, .far {
+  font-weight: 900;
+  font-size: 25px;
+  vertical-align: center;
+  text-align: center;
+  margin-top: 5px;
+}
+.top-header .top-heading-text {
+  margin-left: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  vertical-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+span.top-heading-text {
+  position: relative;
+  top: -11px;
+}
+.top-header .right-side {
+  position: absolute;
+  right: 0;
+  margin-right: 15px;
+}
+.right-side ul li i {
+  padding-left: 15px;
+}
+.right-side ul li .fa-paper-plane:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f1d9";
+  font-size: 25px;
+}
+/* first section ends here */
+.right-side ul li a {
+    color: #333;
+}
+.header-left i {
+    color: #333;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 10px;
+  border: 2px solid #000;
+}
+.container .first-box {
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  width: 30%;
+}
+.container .first-box .emp-name label, .container .first-box .team-name label, .container .first-box .doj label {
+  border: 1px solid #000;
+  font-size: 16px;
+  padding: 5px 5px;
+  font-weight: normal;
+  background-color: #4f4f4f;
+  color: white;
+  width: 40%;
+  float: left;
+  text-align: right;
+  border-bottom: 1px solid #fff;
+}
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+    width: 60%;
+}
+.container .top_first_input {
+  width: 100%;
+}
+.container .top_first_label {
+  width: 300px;
+}
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+  border: 1px solid #000;
+  font-size: 16px;
+  padding: 5px 15px;
+  font-weight: bold;
+  background-color: white;
+  width: 40%;
+  outline: none;
+}
+.container .second-box {
+  text-align: center;
+  /* flex: 1; */
+  text-align: center;
+  background-color: #4f4f4f;
+  width: 40%;
+}
+.container .second-box .career-heading {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  vertical-align: middle;
+  margin-top: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container .third-box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+  width: 30%;
+}
+.container .third-box .manager {
+/* margin-top: 10px; */
+}
+.container .third-box .manager label, .container .third-box .date label, .container .third-box .hr-bp label {
+  border: 1px solid #000;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4f4f4f;
+  color: white;
+  padding: 5px 5px;
+  text-align: right;
+  width: 40%;
+  float: left;
+  border-bottom: 1px solid #fff;
+}
+.team-name {
+  float: left;
+  width: 100%;
+}
+.doj {
+  float: left;
+  width: 100%;
+}
+.emp-name {
+  float: left;
+  width: 100%;
+}
+.container .third-box .manager input, .container .third-box .date input, .container .third-box .hr-bp input {
+  border: 1px solid #000;
+  font-size: 16px;
+  padding: 5px 0px;
+  font-weight: bold;
+  background-color: white;
+  width: 60%;
+  padding-left: 15px;
+  outline: none;
+}
+/* new section */
+.sat-text-div {
+  background-color: #c00000;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+    margin-top: -4px;
+}
+/* new 4 box section */
+.four-div-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: -2px;
+  border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.first-box-from-four, .second-box-from-four, .third-box-from-four, .fourth-box-from-four {
+  width: 25%;
+}
+.four-div-container .text-area {
+  height: 100px;
+  width: 100%;
+  outline: none;
+    padding: 10px;
+
+}
+.four-div-container .four-box-text, .again-four-box-text {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #4f4f4f;
+  border: 1px solid #000;
+}
+.four-div-container .again-four-box-text {
+  background-color: #c00000;
+}
+/* new section */
+.goals-text-div {
+  background-color: #4f4f4f;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/* new section */
+.two-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 130px;
+  width: 100%;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.two-container .first-box-from-two, .second-box-from-two {
+  width: 50%;
+}
+.two-container .text-area {
+  height: 100px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+.two-container .four-box-text {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #4f4f4f;
+  border: 1px solid #000;
+  border-top: 1px solid !important;
+  border-left: 1px solid !important;
+}
+/* new section */
+.new-tow-textarea-box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 135px;
+  width: 100%;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+.new-tow-textarea-box .new-first-box-from-two, .new-second-box-from-two {
+  width: 50%;
+}
+.new-tow-textarea-box .text-area {
+  height: 107px;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+}
+.new-tow-textarea-box .with-margin {
+  height: 133px;
+  padding: 20px;
+}
+.new-tow-textarea-box .new-four-box-text {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #4f4f4f;
+  border: 1px solid #000;
+}
+/* new section */
+.again-four-div .text-area {
+  height: 75px;
+  width: 100%;
+  outline: none;
+  display: block;
+    margin-bottom: -1px;
+}
+/* new section */
+.addition-details {
+  background-color: #c00000;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid #000;
+}
+/* new section */
+.two-container-with-checkboxes {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+  border: 1px solid #000;
+  border-left: 2px solid #333;
+    border-right: 1px solid #333;
+}
+.third-box .date label {
+    height: 35px;
+}
+.doj label.top_first_label {
+    height: 34px;
+}
+.two-container-with-checkboxes .check-box {
+  /* width: 50%; */
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+  text-align: center;
+  border-right: 1px solid #333;
+}
+.two-container-with-checkboxes .check-box .check-box-type {
+  align-items: center;
+  vertical-align: center;
+}
+.two-container-with-checkboxes .check-box .checkbox-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* new section */
+.new-tow-input-feild {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #000;
+}
+.new-tow-input-feild .new-two-five {
+  width: 25%;
+  background-color: #c00000;
+  text-align: center;
+  align-items: center;
+}
+.new-tow-input-feild .new-two-five label {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  display: inline-block;
+}
+.new-tow-input-feild .new-seven-five {
+  width: 75%;
+}
+.new-tow-input-feild .text-area {
+    height: 67px;
+    width: 100%;
+    display: block;
+    border-top: 0;
+    padding: 10px;
+    outline: none;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+@media (min-width: 1435px) and (max-width: 1474px) {
+h3 {
+  font-size: 14px;
+}
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+  width: 190px; /*please reduce the width size as per you laptop or computer screens size */
+}
+.container .third-box .manager input,  .container .third-box .date input,  .container .third-box .hr-bp input {
+  width: 210px; /*please reduce the width size as per you laptop or computer screens size */
+}
+}
+
+
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+  width: 60%; /*please reduce the width size as per you laptop or computer screens size */
+}
+.container .third-box .manager input,  .container .third-box .date input,  .container .third-box .hr-bp input {
+  width: 60%; /*please reduce the width size as per you laptop or computer screens size */
+  float: left;
+}
+}
+ @media (min-width: 1315px) and (max-width: 1354px) {
+h3 {
+  font-size: 12px;
+}
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+  width: 160px; /*please reduce the width size as per you laptop or computer screens size */
+}
+.container .third-box .manager input,  .container .third-box .date input,  .container .third-box .hr-bp input {
+  width: 189px;
+  float: left;
+}
+}
+ @media (min-width: 1275px) and (max-width: 1314px) {
+h3 {
+  font-size: 12px;
+}
+.container .first-box .emp-name input, .container .first-box .team-name input, .container .first-box .doj input {
+  width: 150px; /*please reduce the width size as per you laptop or computer screens size */
+}
+.container .third-box .manager input,  .container .third-box .date input,  .container .third-box .hr-bp input {
+  width: 170px; /*please reduce the width size as per you laptop or computer screens size */
+}
+}
+
+@media (min-width: 1201px) and (max-width: 1234px) {
+h3 {
+  font-size: 12px;
+}
+
+}
